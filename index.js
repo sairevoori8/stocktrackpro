@@ -4,7 +4,7 @@ const bodyParser = require('body-parser')
 const mongoose = require('mongoose')
 const user = require('./user.js');
 
-mongoose.connect('mongodb://localhost:27017/myproj');
+mongoose.connect('mongodb+srv://22h51a6747:M7mRjpxtyEdiTJCo@cluster0.axcsud9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0');
 
 const app = express()
 
