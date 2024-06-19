@@ -1,0 +1,25 @@
+{
+  "name": "sip",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "buid": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "tailwindcss": "^3.4.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "caniuse-lite": "^1.0.30001625",
+    "chart.js": "^4.4.3",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.1",
+    "nodemon": "^3.1.3"
+  }
+}

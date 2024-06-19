@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+.container{
+    height:90vh;
+    background-image: url('assets/bg3.png');
+    background-size: 100% 100%;
+    padding-top: 40px;
+    padding-bottom: 400px;
+    position: relative;
+}
+.maint{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(243, 157, 86);
+    font-family: "Pacifico", cursive;
+    background-color: rgb(255, 255, 255);
+}
+.sub{
+    padding-top: 60px;
+    color: black;
+    text-align: center;
+    font-family: "PT Serif", serif;
+    font-size: 25px;
+    background-color: rgb(255, 255, 255);
+}
+.fosec{
+    padding: 20vh;
+    height: 83vh;
+   
+}
+input[type=text], input[type=password],input[type=number]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border: 2px solid orange;
+}
+input[type=submit]{
+    margin-left: 40vw;
+    font-size: 25px;
+    border: 2px solid orange;
+    background-color: orange;
+    color: aliceblue;
+}
+.cont{
+    display:flex;
+    padding:5px;
+    column-gap: 5px;
+}
+.left{
+    padding: 5px;
+    border-radius: 5px;
+    width: 10vw;
+    border: 4px solid orange;
+    height: 95vh;
+}
+.right{
+    padding: 5px;
+    border-radius: 5px;
+    width: 90vw;
+    border: 4px solid orange;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .custom-table {
+    width: 100%;
+    min-width: 100%;
+    background-color: #F97316; /* Equivalent to bg-orange-400 */
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding-top: 20px;
+  }
+
+  .custom-table th,
+  .custom-table td {
+    padding: 16px;
+    border: 2px solid black;
+    text-align: center;
+    color: black;
+  }
+
+  .table-body {
+    background-color: #ffffff; /* Equivalent to bg-orange-100 */
+  }
+.boxm{
+    padding: 30px;
+}
+.heads{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(243, 157, 86);
+    font-family: "Pacifico", cursive;
+}
+.label{
+    
+    font-size: 10px;
+   padding: 15px;
+}
+#chart-container {
+    width: 300px;  /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    margin: auto;  /* Center the chart on the page */
+}
+.holk{
+    display:flex;
+    padding-left: 20vw;
+    padding-top: 10px;
+}
+.textk{
+    text-align: center;
+    font-size: 30px;
+    font-family: "Pacifico", cursive;
+}
+
+
+
